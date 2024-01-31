@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIKAS NAYAKAR</title>
+  <style>
+    header {
+      background-color: black;
+      color: white;
+      padding: 8px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: blue;
+      padding: 4px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin:  15px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    body {
+      font-family: 'Arial';
+      margin: 0;
+      padding: 0;
+    }
+
+    .home-image {
+     max-width: 100%;
+     height: auto;
+     border-radius: 5px;
+     margin-top: 14px;
+    }
+
+   #home {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 75vh; 
+    }
+
+    #about {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #about h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    #about p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    #education {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #education h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    #skills {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #skills h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    #experience {
+     background-color: #fff;
+     padding: 20px;
+     margin: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #experience h2 {
+     color: #333;
+     border-bottom: 2px solid #333;
+     padding-bottom: 10px;
+    }
+
+    #hobbies {
+     background-color: #fff;
+     padding: 20px;
+     margin: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+   #hobbies h2 {
+     color: #333;
+     border-bottom: 2px solid #333;
+     padding-bottom: 10px;
+    }
+
+    #contact {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    footer {
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>VIKAS NAYAKAR</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <nav>
+    <a onclick="showSection('home')">Home</a>
+    <a onclick="showSection('about')">About Me</a>
+    <a onclick="showSection('education')">Education</a>
+    <a onclick="showSection('skills')">Skills</a>
+    <a onclick="showSection('experience')">Experience</a>
+    <a onclick="showSection('hobbies')">hobbies</a>
+    <a onclick="showSection('contact')">Contact</a>
+   
+  </nav>
+
+  <section id="home">
+    <img src="c:\Users\ANJALI HANUMAGOUDRA\Pictures\Screenshot_20231213_210118_Instagram.jpg" alt="VIKAS NAYAKAR" class="about-image" />
+  </section>
+
+  <section id="about" style="display: none;">
+    <h2>About Me</h2>
+     <p>
+        Hello! I'm VIKAS NAYAKAR, a passionate web designer with a keen eye for detail and a love for creating visually appealing and user-friendly websites.
+     </p>
+     <p>
+        My journey in web design began with a fascination for the intersection of technology and creativity. I enjoy transforming ideas into engaging digital experiences, always keeping up with the latest design trends and industry best practices.
+     </p>
+  
+      <p>
+        With a strong foundation in HTML, CSS, and JavaScript, I bring a balance of technical skills and artistic flair to every project. I believe in the power of a well-crafted user interface to enhance the overall user experience and leave a lasting impression.
+      </p>
+  
+      <p>
+        When I'm not coding or designing, you can find me exploring new design tools, attending design conferences, and collaborating with fellow creatives. I am committed to continuous learning and pushing the boundaries of what's possible in the world of web design.
+      </p>
+    
+  </section>
+
+  <section id="education" style="display: none;">
+    <h2>Education</h2>
+    <table>
+        <thead>
+          <tr>
+            <th>Education</th>
+            <th>Institution</th>
+            <th>Percentage</th>
+            <th>Graduation year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SSLC</td>
+            <td>SRSM High school</td>
+            <td>94%</td>
+            <td>Mar 2014</td>
+          </tr>
+          <tr>
+            <td>PUC</td>
+            <td>SSPU college</td>
+            <td>90%</td>
+            <td>Mar 2016</td>
+          </tr>
+          <tr>
+            <td>Bachelor of Science in Computer Engineering</td>
+            <td>RV University</td>
+            <td>7.5 cgpa</td>
+            <td>sep 2020</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+  <section id="skills" style="display: none;">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>SQL</li>
+      </ul>
+  </section>
+
+  <section id="experience" style="display: none;">
+    <h2>Experience</h2>
+    <p>2 years</p>
+    <ul class="experience-list">
+      <li>
+        <h3>Web Developer</h3>
+        <p class="company">Sattva</p>
+        <p class="description">Developed and maintained web applications using HTML, CSS, and JavaScript. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+        <p class="duration">January 2023 - Present</p>
+      </li>
+
+      <li>
+        <h3>Junior Developer</h3>
+        <p class="company"> Colan Infotech</p>
+        <p class="description">Assisted in the development of backend systems and contributed to the design of user interfaces. Participated in code reviews and troubleshooting sessions.</p>
+        <p class="duration">January 2021 - December 2022</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="hobbies" style="display: none;">
+    <h2>Hobbies</h2>
+    <ul class="hobbies-list">
+      <li>Reading</li>
+      <li>Coding</li>
+      <li>Photography</li>
+      <li>Dancing</li>
+      <li>Singing</li>
+      <li>Watching movies</li>
+    </ul>
+  </section>
+
+  <section id="contact" style="display: none;">
+    <h2>Contact</h2>
+    <div class="contact-links">
+        <a href="callto:+91-9353349626">Call:9353349626</a><br>
+        <a href="mailto:Vikasnnayakar@gmail.com">Email: Vikasnnayakar@gmail.com</a><br>
+        <a href="https://github.com/Vikasnayakar" target="_blank">GitHub: Vikasnayakar</a><br>
+        <a href="https://www.instagram.com/Vikas_nayakar" target="_blank">Instagram: Vikas_nayakar</a>
+  </section>
+
+  <footer>
+    <i><mark>THANKS FOR VISITING MY RESUME</mark></i>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll('section').forEach(section => {
+        section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
